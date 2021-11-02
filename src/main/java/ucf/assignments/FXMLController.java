@@ -17,6 +17,7 @@ import java.net.URL;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.ResourceBundle;
 
 public class FXMLController implements Initializable {
@@ -78,9 +79,9 @@ public class FXMLController implements Initializable {
        put the filtered list in a sorted list
        user the comparator to put the sorted list in the tableview
        add the sorted list to the tableview
-
-        return 1 to signify success
        */
+
+       return 1;
 
    }
 
@@ -102,6 +103,7 @@ public class FXMLController implements Initializable {
 
        */
 
+        return 1;
     }
 
 
@@ -111,6 +113,7 @@ public class FXMLController implements Initializable {
         //initialize the selected cell
         //set the description of the selected cell to the value of the edited cell
         //return 1 to signify success
+        return 1;
 
     }
 
@@ -120,6 +123,7 @@ public class FXMLController implements Initializable {
         //initialize the selected cell
         //set the description of the selected cell to the value of the edited cell
         //return 1 to signify success
+        return 1;
 
     }
 
@@ -129,6 +133,7 @@ public class FXMLController implements Initializable {
         //initialize the selected cell
         //set the description of the selected cell to the value of the edited cell
         //return 1 to signify success
+        return 1;
 
     }
 
@@ -142,6 +147,7 @@ public class FXMLController implements Initializable {
         // copy arrayList to observable List
 
         //return 1 to signify success
+        return 1;
 
     }
 
@@ -151,6 +157,7 @@ public class FXMLController implements Initializable {
         //user right clicks and selects remove list
         //removList is triggered and gets the selected cell and removed it from the listView
         //return 1 to signify success
+        return 1;
 
 
     }
@@ -163,6 +170,7 @@ public class FXMLController implements Initializable {
         //using the description field, the complete field, snd the due date field
         //using isValid, valid that the due date is in the correct format
         //return 1 to signify success
+        return 1;
 
 
     }
@@ -173,6 +181,7 @@ public class FXMLController implements Initializable {
         //user right clicks and selects remove task
         //remTask is triggered and gets the selected cell and removed it from the tableView
         //return 1 to signify success
+        return 1;
 
     }
 
@@ -184,6 +193,7 @@ public class FXMLController implements Initializable {
         //open save dialog from desktop
         //save selected cell
         //return 1 to signify success
+        return 1;
 
 
     }
@@ -196,6 +206,7 @@ public class FXMLController implements Initializable {
         //open open-dialog from desktop
         //open selected file
         //return 1 to signify success
+        return 1;
 
     }
 
@@ -209,6 +220,7 @@ public class FXMLController implements Initializable {
         //open save-dialog from desktop
         //save all cells
         //return 1 to signify success
+        return 1;
 
     }
 
@@ -222,6 +234,7 @@ public class FXMLController implements Initializable {
         //allow user to select multiple lists from file explorer
         //open all lists
         //return 1 to signify success
+        return 1;
 
     }
 
@@ -239,7 +252,7 @@ public class FXMLController implements Initializable {
         return true*/
 
         //catch exceptions
-        //return false
+        return false;
 
     }
 
